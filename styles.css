@@ -5,9 +5,7 @@
     list-style: none;
 }
 
-:root {
-    --color-primary: #4247D7;
-}
+
 
 body {
     margin: 0;
@@ -88,16 +86,16 @@ nav {
 .p1 {
     position: relative;
     left: 10vw;
-
-    font-size: 1.5vw;
+    margin-top: 0.5vw;
+    font-size: 1.7vw;
     color: #000000;
 }
 
 .ingressi {
     position: relative;
     left: 10vw;
-    font-size: 1.6vw;
-    padding-top: 20px;
+    font-size: 2.5vw;
+    padding-top: 0px;
     color: #000000;
 
 }
@@ -106,35 +104,57 @@ nav {
     position: relative;
     left: 10vw;
     color: #325278;
+    margin-top: 0.2vw;
 }
 
 .button {
     position: relative;
     left: 10vw;
-    top: 7vw;
-    background: transparent;
-    color:#000000;
+    top: 2vw;
+    background: #325278;
+    color:#ffffff;
     border:2px solid #000000;
-    border-radius: 8px;
     font-size: 1.3vw;
-    padding: 10px 24px;
+    width: 14vw;
+    padding: 12px 36px;
     display: inline-block;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #325278;
+    background-color: transparent;
     border-radius: 8px;
-    color: #ffffff;
+    color: #325278;
     transition: 0.3s;
 }
 
+.button ~ .button {
+    margin-left: 7vw; 
+}
 
 .header {
     position: relative;
     background: #130124;
     background: rgb(255, 255, 255);
     height: 50vh;
+}
+
+.about {
+    margin-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.abouth2 {
+    color: #ffffff;
+    background-color: #325278;
+    width: 100%;
+    text-align: center
+}
+
+.aboutp {
+    margin-top: 2vw;
+    
 }
 
 footer {
